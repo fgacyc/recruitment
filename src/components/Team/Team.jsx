@@ -15,7 +15,7 @@ export default function Team({ selected_team }) {
         people: {
             cnTeamTitle: "贵宾体验团队",
             teamTile: "People Experience Team",
-            combination: "People | General Affair | Tech",
+            combination: "People | Operations | Tech",
             desc: ["贵宾体验团队的存在是为了提升每位来到教会的人的整体体验。通过提供良好的体验，相信人更愿意留下联系信息，以便牧养团队能够有效地让人融入我们教会的社群当中。",
                 "我们的期待是将牧养过程数据化，以优质的服务态度和数据帮助教会和每个会友在健康的轨道上成长。"],
         },

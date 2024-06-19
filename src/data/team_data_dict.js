@@ -26,7 +26,7 @@ export  const team_data_dict = {
                 },]
             }, {
                 cnDepTitle: "总务部",
-                depTitle: "General Affair",
+                depTitle: "Operations",
                 desc: "总务部的责任是确保教会每个星期聚会运营高效、顺利，并支持教会和会友们的一切所需。他们负责管理流程、教会的资源和供应链，分析牧养体系的数据，以及促进教会健康的发展。",
                 ministry: [{
                     img: "/images/admin.jpg",
