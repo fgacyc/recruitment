@@ -1,4 +1,4 @@
-export  const team_data_dict = {
+export const team_data_dict = {
     people: {
         cnTeamTitle: "贵宾体验团队",
         teamTile: "People Experience Team",
@@ -28,25 +28,36 @@ export  const team_data_dict = {
                 cnDepTitle: "总务部",
                 depTitle: "Operations",
                 desc: "总务部的责任是确保教会每个星期聚会运营高效、顺利，并支持教会和会友们的一切所需。他们负责管理流程、教会的资源和供应链，分析牧养体系的数据，以及促进教会健康的发展。",
-                ministry: [{
-                    img: "/images/admin.jpg",
-                    cnMinistryTitle: "行政",
-                    ministryTitle: "Admin",
-                    desc: ["“台上三分钟，台下十年工”。这一群或许连三分钟台都未上过的人，日夜用他们精明能干的头脑、牺牲的心肠，在台下应付和整理 FGACYC 大量的资料流量，可说是 FGACYC的支柱！没有了他们的统计，我们可能都没办法透过见证神应许给 FGACYC 爆炸性复兴的时刻！"],
-                    rate: [3, 2],
-                }, {
-                    img: "/images/lounge.jpg",
-                    cnMinistryTitle: "膳食",
-                    ministryTitle: "Lounge",
-                    desc: ["他们每个星期掌握了几千人的胃！他们不只需要想破脑袋安排每个星期的膳食菜单，还需组织、统筹 FGACYC 聚会每个年龄层的膳食量。如果你是美食达人，对食物有高度的要求，欢迎加入我们！"],
-                    rate: [2, 3]
-                }, {
-                    img: "/images/shuttle.jpg",
-                    cnMinistryTitle: "接驳服务",
-                    ministryTitle: "Shuttle",
-                    desc: ["由于教会的迅速发展，停车问题日益严重，导致会友和新朋友们有时不得不将车辆停放在较远的地方，然后步行到聚会地点。为了改善每个人来教会的体验，他们提供贴心的运送服务，确保每个人都能享受到愉快的教会体验。"],
-                    rate: [3, 2]
-                }]
+                ministry: [
+                    {
+                        img: "/images/admin.jpg",
+                        cnMinistryTitle: "行政",
+                        ministryTitle: "Admin",
+                        desc: ["“台上三分钟，台下十年工”。这一群或许连三分钟台都未上过的人，日夜用他们精明能干的头脑、牺牲的心肠，在台下应付和整理 FGACYC 大量的资料流量，可说是 FGACYC的支柱！没有了他们的统计，我们可能都没办法透过见证神应许给 FGACYC 爆炸性复兴的时刻！"],
+                        rate: [3, 2],
+                    },
+                    {
+                        img: "/images/venue.png",
+                        cnMinistryTitle: "场地",
+                        ministryTitle: "Venue",
+                        desc: ["负责教会礼拜和活动场地的整体规划、设计和维护。场地组主要是要创造一个舒适的崇拜氛围和环境，使每一位来到教会的会众都能毫无干扰的敬拜神。"],
+                        rate: [2, 4],
+                    },
+                    {
+                        img: "/images/lounge.jpg",
+                        cnMinistryTitle: "贵宾接待",
+                        ministryTitle: "Guest Lounge",
+                        desc: ["贵宾招待负责迎接和招待教会的贵宾、讲员和其他重要访客。该岗位不仅是教会礼貌和热情的象征，更是通过细致入微的服务，让每一位贵宾感受到被尊重和关怀。"],
+                        rate: [2, 3]
+                    },
+                    {
+                        img: "/images/shuttle.jpg",
+                        cnMinistryTitle: "接驳服务",
+                        ministryTitle: "Shuttle",
+                        desc: ["由于教会的迅速发展，停车问题日益严重，导致会友和新朋友们有时不得不将车辆停放在较远的地方，然后步行到聚会地点。为了改善每个人来教会的体验，他们提供贴心的运送服务，确保每个人都能享受到愉快的教会体验。"],
+                        rate: [3, 2]
+                    }
+                ]
             }, {
                 cnDepTitle: "科技部",
                 depTitle: "Technology",
@@ -84,13 +95,15 @@ export  const team_data_dict = {
                     ministryTitle: "Content Creation",
                     desc: ["从内容策划到内容创作、多媒体制作到社交媒体管理，他们的目标是通过创作有吸引力和有价值的属灵内容来吸引和保持受众的关注，并让神家里的故事能够被看见和听见。"],
                     rate: [3, 3]
-                }, {
-                    img: "/images/editorial.jpg",
-                    cnMinistryTitle: "文字编辑",
-                    ministryTitle: "Editorial",
-                    desc: ["文字能够传递信息、影响思想、引发情感共鸣、激发行动和改变的力量。他们透过文字的力量，以及精心编辑的文案，把教会里发生的大小事物赋予重大的意义。"],
-                    rate: [3, 2],
-                }]
+                },
+                //     {
+                //     img: "/images/editorial.jpg",
+                //     cnMinistryTitle: "文字编辑",
+                //     ministryTitle: "Editorial",
+                //     desc: ["文字能够传递信息、影响思想、引发情感共鸣、激发行动和改变的力量。他们透过文字的力量，以及精心编辑的文案，把教会里发生的大小事物赋予重大的意义。"],
+                //     rate: [3, 2],
+                // }
+                ]
             },
                 {
                     cnDepTitle: "设计部",
@@ -104,8 +117,8 @@ export  const team_data_dict = {
                         rate: [5, 2]
                     }, {
                         img: "/images/multimedia_design.jpg",
-                        cnMinistryTitle: "多媒体设计",
-                        ministryTitle: "Multimedia Design",
+                        cnMinistryTitle: "网页设计",
+                        ministryTitle: "UI/UX Design",
                         desc: ["在这个数码的时代，设计不再只局限于印刷的应用。数码世界的需求也早已超越了静态的设计。多媒体设计师涉及的范围有网页设计、动画和3D制作。让一片黑漆漆的数码屏幕生动起来。"],
                         rate: [4, 2],
                     }]
@@ -180,19 +193,29 @@ export  const team_data_dict = {
                     ministryTitle: "Dance",
                     desc: ["赞美神，除了言语歌声外，绝对少不了跳舞！激发你内在的潜能，用肢体语言为主发光吧！以超炫的舞蹈结合强劲的音乐，使舞台散发出吸引年轻人来到教会的魅力！"],
                     rate: [3, 2],
-                }, {
+                },
+                    {
                     img: "/images/fashion_&_image.jpg",
                     cnMinistryTitle: "形象设计",
                     ministryTitle: "Fashion & Image",
                     desc: ["他们负责设计人物造型、化妆以及发型，以一双巧手让路人瞬间变成闪亮明星！自认拥有走在时代尖端的时装品味与妆容嗅觉的你，还等什么？这里就是你发挥所长的好地方！"],
                     rate: [3, 3]
-                }, {
-                    img: "/images/drama.jpg",
-                    cnMinistryTitle: "戏剧",
-                    ministryTitle: "Drama",
-                    desc: ["总觉得自己里面住了一个梁朝伟、吴君如？帅过李现、美过刘亦菲？厉害过陈可辛、红过吴宇森？无论是实力派还是偶像派，高颜值也好、谐星也罢，只要爱演的就过来！"],
-                    rate: [3, 2]
-                }]
+                },
+                //     {
+                //     img: "/images/drama.jpg",
+                //     cnMinistryTitle: "戏剧",
+                //     ministryTitle: "Drama",
+                //     desc: ["总觉得自己里面住了一个梁朝伟、吴君如？帅过李现、美过刘亦菲？厉害过陈可辛、红过吴宇森？无论是实力派还是偶像派，高颜值也好、谐星也罢，只要爱演的就过来！"],
+                //     rate: [3, 2]
+                // }
+                    {
+                        img: "/images/decoration.jpg",
+                        cnMinistryTitle: "视觉陈列",
+                        ministryTitle: "Decoration",
+                        desc: ["一门创造性的视觉与空间艺术，它包括礼堂设计、装饰、讲台布置、走道、模型展示、背景板、道具及挂饰等礼拜终端的所有视觉要素，是一个完整而系统的集合概念。"],
+                        rate: [3, 3]
+                    },
+                ]
             }, {
                 cnDepTitle: "敬拜部",
                 depTitle: "Worship",

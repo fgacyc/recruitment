@@ -44,9 +44,18 @@ export default function Search() {
                     <div className='flex justify-between' style={{ flexWrap: "wrap", margin: "0px 25px" }}>
                         {
                             filteredData.map((ministry, index) => {
-                                const imageFormat = ministry.ministryTitle === "Security" ? "png" : "jpg";
+                                let imageFormat = "jpg";
+                                if (ministry.ministryTitle === "Security") {
+                                    imageFormat = "png";
+                                }
+                                else  if (ministry.ministryTitle === "Venue") {
+                                    imageFormat = "png";
+                                }
                                 const imageName = ministry.ministryTitle.toLocaleLowerCase().replace(/\s/g, '_');
-                                const img = `/images/${imageName}.${imageFormat}`;
+                                let img = `/images/${imageName}.${imageFormat}`;
+                                if (ministry.ministryTitle === "UI/UX Design") {
+                                    img = `/images/multimedia_design.jpg`;
+                                }
 
                                 return (
                                     <SearchCard

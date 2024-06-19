@@ -56,7 +56,7 @@ export const ministry_search_data_list = [
     //     team: "people"
     // },
     {
-        img: "/images/lounge.png",
+        img: "/images/lounge.jpg",
         cnMinistryTitle: "贵宾接待",
         ministryTitle: "Guest Lounge",
         department: "general_affair",
@@ -141,7 +141,7 @@ export const ministry_search_data_list = [
     //     team: "communication"
     // },
     {
-        img: "/images/multimedia_design.png",
+        img: "/images/multimedia_design.jpg",
         cnMinistryTitle: "网页设计",
         ministryTitle: "UI/UX Design",
         department: "design",
