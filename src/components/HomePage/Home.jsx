@@ -45,7 +45,14 @@ export default function Home() {
             <section id='landing' className='flex flex-col justify-between align-center'>
                 <img src="/images/CYC_logo.png" alt="CYC Logo" id='cyc-logo' className='mt-45' />
                 <img src="/images/KV_title.png" alt="Landing Title" />
-                <button style={{ marginBottom: "75px" }} onClick={handleClick}>开启你的服事旅程</button>
+                <button style={{
+                    marginBottom: "75px" ,
+                    padding:"20px 80px 20px 80px" ,
+                    borderRadius:"30px" ,
+                    color:"#193A66",
+                    fontSize:"18px",
+                    fontWeight:"bold",
+                }} onClick={handleClick}>开启你的服事旅程</button>
             </section>
             <Swiper pagination={true} modules={[Pagination]} className="mySwiper home-swiper"
             >

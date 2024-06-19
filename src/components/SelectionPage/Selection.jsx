@@ -99,7 +99,7 @@ export default function Selection() {
                 }}>Maximum 1 choice</h6>
                 <button style={{
                     background: "#173965", color: "white", fontFamily: "SF Pro Display", fontWeight: "900", marginTop: "15px",
-                    width: "100%"
+                    width: "100%", padding: "15px 0px", borderRadius: "30px", fontSize: "1.125rem"
                 }}
                 onClick={confirmHandler}
                 >
