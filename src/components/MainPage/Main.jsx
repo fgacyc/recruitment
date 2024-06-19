@@ -7,7 +7,6 @@ import "swiper/css";
 import { Pagination } from "swiper";
 import { handlerSectionScroll } from '../../js/scroll';
 import { useNavigate } from 'react-router-dom';
-import { useEffect } from 'react';
 
 export default function Main() {
     const team_data = [{
@@ -69,8 +68,10 @@ export default function Main() {
             <div id='main-container'>
                 {/* <MinistryOption /> */}
                 <div id='container'>
-                    <h1>一起建造</h1>
-                    <h1>属于我们的家</h1>
+                    <div id="build-family">
+                        <h1>一起建造</h1>
+                        <h1>属于我们的家</h1>
+                    </div>
                     <div id='txt' className='relative search-con' onClick={navigateToSearch}>
                         <img src="/icons/search.svg" alt="Search Icon" id='search-icon' />
                         <input type="text" name="search" id="txt-search" placeholder='Search' style={{ width: "75%" }} />

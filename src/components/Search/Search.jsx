@@ -22,7 +22,7 @@ export default function Search() {
 
     return (
         <section style={{ backgroundColor: "#f5f5f8" }} className="flex flex-col">
-            <div className="flex" style={{ height: "24px", marginTop: "70px" }}>
+            <div className="flex search-box" style={{ height: "24px", marginTop: "70px" }}>
                 <img src="/icons/left.svg" alt="Back Icon" style={{ margin: "0px 35px" }} onClick={navigateBack} />
                 <input type="text" placeholder="Search" className="search-input" value={searchText}
                     onChange={(e) => setSearchText(e.target.value)} />

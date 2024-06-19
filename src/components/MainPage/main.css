@@ -22,6 +22,15 @@
   margin-bottom: 18px !important;
 }
 
+#build-family{
+  color: #1A3A66;
+  font-family: HYZhuZiChangMeiXin;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 114.1%; /* 68.46px */
+}
+
 #txt-search {
   /* width: 314px; */
   height: 60px;
