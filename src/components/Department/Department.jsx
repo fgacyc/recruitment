@@ -54,10 +54,10 @@ export default function Department({ team, sectionNum }) {
                     <section key={index} className='flex flex-col justify-center align-center'
                         style={{ margin: "0px 35px" }} onTouchStart={handleTouchStart}
                         onTouchEnd={handleTouchEnd(index)}>
-                        <h5 style={{ fontSize: "1.5rem", fontWeight: "400" }}>{dep.cnDepTitle}</h5>
+                        <h5 style={{ fontSize: "1.5rem", fontWeight: "400" , color: "black"}}>{dep.cnDepTitle}</h5>
                         <h2 style={{
                             fontSize: "3rem", fontFamily: "SF Pro Display",
-                            fontWeight: "900", color: "#21416D", textAlign: "center"
+                            fontWeight: "900", color: "black", textAlign: "center"
                         }}>{dep.depTitle}</h2>
                         <h6 style={{ margin: "20px 0px", fontWeight: "700", textAlign: "center" }}>{dep.desc}</h6>
                         <Swiper

@@ -68,7 +68,13 @@ export default function Main() {
             <div id='main-container'>
                 {/* <MinistryOption /> */}
                 <div id='container'>
-                    <div id="build-family">
+                    <div id="build-family"
+                    style={{
+                        textAlign: "center",
+                        color: "black",
+                        fontStyle: "normal"
+                    }}
+                    >
                         <h1>一起建造</h1>
                         <h1>属于我们的家</h1>
                     </div>

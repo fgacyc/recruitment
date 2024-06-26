@@ -23,6 +23,11 @@
   src: url("./fonts/Sorren Black.otf");
 }
 
+@font-face {
+  font-family: Stratos;
+  src: url("./fonts/stratos-regular.otf");
+}
+
 ::-webkit-scrollbar {
   width: 0;
   background-color: transparent;
@@ -246,3 +251,7 @@ button:active {
   border: 0 !important;
 }
 
+
+.boy{
+  mix-blend-mode: screen  ;
+}

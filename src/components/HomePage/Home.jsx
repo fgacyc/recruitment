@@ -44,15 +44,51 @@ export default function Home() {
         <>
             <section id='landing' className='flex flex-col justify-between align-center'>
                 <img src="/images/CYC_logo.png" alt="CYC Logo" id='cyc-logo' className='mt-45' />
-                <img src="/images/KV_title.png" alt="Landing Title" />
+                <div style={{
+                    textAlign: "center",
+                    fontSize: "20px",
+
+                }}>
+                    <div style={{
+                        marginBottom: 10,
+                        fontSize: "25px",
+                        fontFamily: "FZChaoCuHei",
+                    }}>开启你的
+                    </div>
+                    <div style={{
+                        fontSize: "40px",
+                        marginBottom: 10,
+                        fontFamily: "FZChaoCuHei",
+                    }}>服事旅程
+                    </div>
+                    <div style={{
+                        fontSize: "12px",
+                        fontFamily: "Stratos",
+                    }}>STARTING YOUR SERVING JOURNEY
+                    </div>
+                </div>
+                <div style={{
+                        padding: "0px 40px 0px 40px",
+                    }}>
+                    <img src="/images/KV_title.png"
+                         alt="Landing Title"
+                         className={"boy"}
+                        style={{
+                            width: "100%",
+                            height: "auto",
+                            borderRadius: "15px",
+                        }}
+                    />
+                </div>
                 <button style={{
-                    marginBottom: "75px" ,
-                    padding:"20px 80px 20px 80px" ,
+                    marginBottom: "75px",
+                    padding: "20px 80px 20px 80px",
                     borderRadius:"30px" ,
                     color:"#193A66",
+                    fontFamily:"Stratos",
                     fontSize:"18px",
                     fontWeight:"bold",
-                }} onClick={handleClick}>开启你的服事旅程</button>
+                }} onClick={handleClick}>GET STARTED</button>
             </section>
             <Swiper pagination={true} modules={[Pagination]} className="mySwiper home-swiper"
             >

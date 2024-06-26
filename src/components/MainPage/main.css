@@ -15,7 +15,7 @@
 }
 
 #explore {
-  color: "#1A3A66" !important;
+  color: black !important;
   font-size: 1.875rem !important;
   font-family: "SF Pro Display" !important;
   font-weight: 800 !important;
@@ -24,10 +24,10 @@
 
 #build-family{
   color: #1A3A66;
-  font-family: HYZhuZiChangMeiXin;
+  font-family: FZChaoCuHei;
   font-size: 2rem;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 114.1%; /* 68.46px */
 }
 

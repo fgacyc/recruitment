@@ -291,7 +291,7 @@ export default function LeaderRegistration() {
                         )
                     }
                     <div>
-                        <h4 className='complete-h4'>© 2023 FGACYC.</h4>
+                        <h4 className='complete-h4'>© 2024 FGACYC.</h4>
                         <h4 className='complete-h4' style={{ marginBottom: '45px' }}>All Rights Reserved</h4>
                     </div>
                 </div>
