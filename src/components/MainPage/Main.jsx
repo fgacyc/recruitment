@@ -69,14 +69,20 @@ export default function Main() {
                 {/* <MinistryOption /> */}
                 <div id='container'>
                     <div id="build-family"
-                    style={{
-                        textAlign: "center",
-                        color: "black",
-                        fontStyle: "normal"
-                    }}
+                         style={{
+                             textAlign: "center",
+                             color: "black",
+                             fontStyle: "normal",
+                             fontSize: "2rem",
+                         }}
                     >
-                        <h1>一起建造</h1>
-                        <h1>属于我们的家</h1>
+                        <div>一起建造</div>
+                        <div>属于我们的家</div>
+                        <div style={{
+                            fontSize: "0.8rem",
+                            fontFamily: "SF Pro Display",
+                        }}
+                        >LET'S BUILD THIS HOME TOGETHER</div>
                     </div>
                     <div id='txt' className='relative search-con' onClick={navigateToSearch}>
                         <img src="/icons/search.svg" alt="Search Icon" id='search-icon' />
