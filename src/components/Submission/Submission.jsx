@@ -134,9 +134,17 @@ export default function Submission() {
             let response = await fetch(url, options);
             let data = await response.json();
             console.log(data)
+            localStorage.setItem("cyc-countdown-ifOver", "false");
 
-            if (data.status === "failed" && data.error === "email already exist") {
+            if (data.message === "Email already exists"){
+                return "exist";
+            }
+
+            if (data.status === "failed" ) {
                 return "failed";
+            }
+            if (data.status === "success") {
+                return true;
             }
 
             // if (data.countdown[department] > needs) {
@@ -144,11 +152,9 @@ export default function Submission() {
             // } else {
             //     localStorage.setItem("cyc-countdown-ifOver", "false");
             // }
-            localStorage.setItem("cyc-countdown-ifOver", "false");
 
-            if (data.status === "success") {
-                return true;
-            }
+
+
 
         } catch (error) {
             console.log(error);
@@ -241,10 +247,11 @@ export default function Submission() {
             if (result === true) {
                 navigate("/complete");
                 localStorage.setItem("cyc-submission", "true")
-            } else if (result === "failed") {
+            } else if (result === "exist") {
                 alert("You have already submitted your application. Please wait for the response.")
                 navigate("/");
-            } else {
+            }
+            else {
                 alert("Something went wrong, Please try again.");
             }
         });
