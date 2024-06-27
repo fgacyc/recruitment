@@ -2,7 +2,7 @@
 //export const hostURL = "http://localhost:6023"
 
 // cloud prod
-export const hostURL = "https://api.enjoycoding.me";
+export const hostURL = "https://recruitment-api.fgacyc.com";
 
 
 //cloud dev

@@ -118,7 +118,7 @@ export default function Submission() {
     }
 
     async function postRecruiter(info) {
-        let url = hostURL + "/recruiter";
+        let url = hostURL + "/application";
         let pastoral_team = info.pastoral_team[0]
         let department = info.ministry[1]
         let needs = findMinistryNeeds(pastoral_team, department);
@@ -133,23 +133,25 @@ export default function Submission() {
         try {
             let response = await fetch(url, options);
             let data = await response.json();
+            console.log(data)
 
             if (data.status === "failed" && data.error === "email already exist") {
                 return "failed";
             }
 
-            if (data.countdown[department] > needs) {
-                localStorage.setItem("cyc-countdown-ifOver", "true");
-            } else {
-                localStorage.setItem("cyc-countdown-ifOver", "false");
-            }
+            // if (data.countdown[department] > needs) {
+            //     localStorage.setItem("cyc-countdown-ifOver", "true");
+            // } else {
+            //     localStorage.setItem("cyc-countdown-ifOver", "false");
+            // }
+            localStorage.setItem("cyc-countdown-ifOver", "false");
 
             if (data.status === "success") {
                 return true;
             }
 
         } catch (error) {
-            // console.log(error);
+            console.log(error);
             return false;
         }
         return false;
@@ -231,9 +233,11 @@ export default function Submission() {
             }
         }
 
-        // console.log(info);
+        console.log("info:",info);
+        // return;
 
         postRecruiter(info).then((result) => {
+            console.log("result:",result)
             if (result === true) {
                 navigate("/complete");
                 localStorage.setItem("cyc-submission", "true")

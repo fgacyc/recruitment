@@ -34,5 +34,6 @@ export function findMinistryNeeds(pastoral_team, department){
     }else{
         return  0;
     }
-    return needs[department];
+   // return needs[department];
+    return 9999;
 }

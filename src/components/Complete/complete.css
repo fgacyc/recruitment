@@ -4,6 +4,11 @@
     color: white;
     margin-bottom: 35px;
     font-family: FZChaoCuHei;
+    font-size: 1.125rem;
+    /*font-weight: 800;*/
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
 }
 
 .complete-h4 {
