@@ -6,7 +6,7 @@ export const organization_structure = {
         ],
         "general_affair": [
             "admin",
-            "lounge",
+            "venue",
             "shuttle"
         ],
         "technology": [
@@ -76,6 +76,10 @@ const ministry_name_map ={
         "en": "Lounge",
         "cn": "膳食"
     },
+    "venue": {
+        "en": "Venue",
+        "cn": "场地"
+    },
     "shuttle": {
         "en": "Shuttle",
         "cn": "接驳服务"
@@ -102,7 +106,7 @@ const ministry_name_map ={
     },
     "multimedia design": {
         "en": "Multimedia Design",
-        "cn": "多媒体设计"
+        "cn": "网页设计"
     },
     "photography": {
         "en": "Photography",
@@ -152,6 +156,10 @@ const ministry_name_map ={
         "en": "Children Minister",
         "cn": "神奇王国同工"
     }
+    ,"decoration":{
+        "en": "Decoration",
+        "cn": "视觉陈列"
+    }
 }
 
 export function findMinistry(name){
@@ -184,6 +192,7 @@ export function findMinistryColor(name){
 }
 
 export function findMinistryName(name){
+    console.log("name", name)
     let ministry = findMinistry(name)[2];
     return ministry_name_map[ministry];
 }
