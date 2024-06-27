@@ -15,10 +15,10 @@ export let pastoral_team = {
         // "young_dreamer",
         // "joshua_zone"
         "Joshua Zone",
-        "JDaniel Yeo Zone",
-        "JPs Jasmine Zone",
-        "JPs Melvin Zone",
-        "JThe Blessing",
+        "Daniel Yeo Zone",
+        "Ps Jasmine Zone",
+        "Ps Melvin Zone",
+        "The Blessing",
     ],
     // "others": [
     //     "serdang",

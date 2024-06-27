@@ -356,21 +356,22 @@ export default function Submission() {
                                         <option value="mind">Mind</option>
                                     </optgroup>
                                     <optgroup label="General">
-                                        <option value="yp_zone">YP Zone</option>
-                                        <option value="pro_family">Pro Family</option>
-                                        <option value="young_dreamer">Young Dreamer</option>
+                                        <option value="daniel_yeo_zone">Daniel Yeo Zone</option>
                                         <option value="joshua_zone">Joshua Zone</option>
-                                    </optgroup>
-                                    <optgroup label="Others">
-                                        <option value="serdang">Serdang</option>
-                                        <option value="kepong">Kepong</option>
-                                        <option value="usj">USJ</option>
-                                        <option value="setapak">Setapak</option>
-                                        <option value="sg_long">Sg Long</option>
-                                        <option value="seremban">Seremban</option>
+                                        <option value="ps_jasmine_zone">Ps Jasmine Zone</option>
+                                        <option value="ps_melvin_zone">Ps Melvin Zone</option>
                                         <option value="the_blessing">The Blessing</option>
-                                        <option value="to_be_confirmed">To Be Confirmed</option>
                                     </optgroup>
+                                    {/*<optgroup label="Others">*/}
+                                    {/*    <option value="serdang">Serdang</option>*/}
+                                    {/*    <option value="kepong">Kepong</option>*/}
+                                    {/*    <option value="usj">USJ</option>*/}
+                                    {/*    <option value="setapak">Setapak</option>*/}
+                                    {/*    <option value="sg_long">Sg Long</option>*/}
+                                    {/*    <option value="seremban">Seremban</option>*/}
+                                    {/*    <option value="the_blessing">The Blessing</option>*/}
+                                    {/*    <option value="to_be_confirmed">To Be Confirmed</option>*/}
+                                    {/*</optgroup>*/}
                                 </select>
                                 {pastoralTeamError && <div className="input-error">{pastoralTeamError}</div>}
                             </>
