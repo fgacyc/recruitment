@@ -14,11 +14,11 @@ export let pastoral_team = {
         // "pro_family",
         // "young_dreamer",
         // "joshua_zone"
-        "Joshua Zone",
-        "Daniel Yeo Zone",
-        "Ps Jasmine Zone",
-        "Ps Melvin Zone",
-        "The Blessing",
+        "daniel_yeo_zone",
+        "joshua_zone",
+        "ps_jasmine_zone",
+        "ps_melvin_zone",
+        "the_blessing"
     ],
     // "others": [
     //     "serdang",
