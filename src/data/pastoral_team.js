@@ -10,19 +10,24 @@ export let pastoral_team = {
         "mind"
     ],
     "general_service": [
-        "yp_zone",
-        "pro_family",
-        "young_dreamer",
-        "joshua_zone"
+        // "yp_zone",
+        // "pro_family",
+        // "young_dreamer",
+        // "joshua_zone"
+        "Joshua Zone",
+        "JDaniel Yeo Zone",
+        "JPs Jasmine Zone",
+        "JPs Melvin Zone",
+        "JThe Blessing",
     ],
-    "others": [
-        "serdang",
-        "kepong",
-        "usj",
-        "setapak",
-        "sg_long",
-        "seremban",
-    ]
+    // "others": [
+    //     "serdang",
+    //     "kepong",
+    //     "usj",
+    //     "setapak",
+    //     "sg_long",
+    //     "seremban",
+    // ]
 }
 
 export function formatOption(name) {
