@@ -70,7 +70,7 @@ export default function Home() {
                 <div style={{
                         padding: "0px 40px 0px 40px",
                     }}>
-                    <img src="/images/KV_title.png"
+                    <img src="/images/KV_title1.png"
                          alt="Landing Title"
                          className={"boy"}
                         style={{
