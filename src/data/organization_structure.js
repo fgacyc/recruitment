@@ -192,7 +192,7 @@ export function findMinistryColor(name){
 }
 
 export function findMinistryName(name){
-    console.log("name", name)
+    // console.log("name", name)
     let ministry = findMinistry(name)[2];
     return ministry_name_map[ministry];
 }

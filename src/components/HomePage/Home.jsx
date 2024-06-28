@@ -100,7 +100,10 @@ export default function Home() {
                             <div style={{ color: "white",
                                 marginBottom: "30px",
                                 fontSize: "24px",
-                                fontFamily:"FZChaoCuHei" }}>像一家人一样不遗余力地彼此服事</div>
+                                fontFamily:"FZChaoCuHei" }}>
+                                <div style={{marginBottom:6}}>像一家人一样</div>
+                                <div>不遗余力地彼此服事</div>
+                            </div>
                             <h6 style={{ marginBottom: "30px" }}>
                                 教会是神赐给我们的属灵大家庭，
                                 在这个大家庭里的每个人都有责任付出和给予，
@@ -147,7 +150,10 @@ export default function Home() {
                                 marginBottom: "30px",
                                 fontSize: "24px",
                                 fontFamily:"FZChaoCuHei"
-                            }}>共同建造这个爱的属灵大家庭</div>
+                            }}>
+                                <div style={{marginBottom:6}}>共同建造这个</div>
+                                <div style={{fontSize:30}}>属灵大家庭</div>
+                            </div>
                             <h6>
                                 今天就找出最能发挥你自己的强处，
                                 或是你最有兴趣的事工，
