@@ -15,14 +15,13 @@ export const team_data_dict = {
                     cnMinistryTitle: "招待",
                     ministryTitle: "Usher",
                     desc: ["“WELCOME HOME!” 不是一句可有可无的口号，一句温暖的欢迎加上亲切的笑容，是人们对于 FGACYC 这个 “家” 的第一印象。他们背负着维持聚会秩序的重任、提供指导和帮助，小事细至帮助会众找到座位都由他们一手包办。"],
-                    rate: [2, 3],
+                    rate: [2,4],
                 }, {
                     img: "/images/security.png",
                     cnMinistryTitle: "保安",
                     ministryTitle: "Security",
-                    desc: ["他们的眼神是专注，不是凶狠；他们的姿态是专业，绝非冷漠，他们的衣着很整齐，却无关黑手党。",
-                        "他们不只是外表富有安全感，他们也是真材实料的能抗能打，他们是接受过紧急响应、解决冲突、急救或人群管理等领域的专门培训！有了他们，少了凌乱，多了安全感。"],
-                    rate: [2, 2],
+                    desc: ["他们的眼神是专注，不是凶狠；他们的姿态是专业，绝非冷漠，他们的衣着很整齐，却无关黑手党。他们是接受过紧急响应、解决冲突、急救或人群管理等领域的专门培训！有了他们，少了凌乱，多了安全感。"],
+                    rate: [2, 3],
                 },]
             }, {
                 cnDepTitle: "总务部",
@@ -33,7 +32,7 @@ export const team_data_dict = {
                         img: "/images/admin.jpg",
                         cnMinistryTitle: "行政",
                         ministryTitle: "Admin",
-                        desc: ["“台上三分钟，台下十年工”。这一群或许连三分钟台都未上过的人，日夜用他们精明能干的头脑、牺牲的心肠，在台下应付和整理 FGACYC 大量的资料流量，可说是 FGACYC的支柱！没有了他们的统计，我们可能都没办法透过见证神应许给 FGACYC 爆炸性复兴的时刻！"],
+                        desc: ["这一群或许连三分钟台都未上过的人，日夜用他们精明能干的头脑、牺牲的心肠，在台下应付和整理 FGACYC 大量的资料流量，可说是 FGACYC的支柱！没有了他们的统计，我们可能都没办法透过见证神应许给 FGACYC 爆炸性复兴的时刻！"],
                         rate: [3, 2],
                     },
                     {
@@ -114,7 +113,7 @@ export const team_data_dict = {
                         cnMinistryTitle: "平面设计",
                         ministryTitle: "Graphic Design",
                         desc: ["好的视觉设计能够抓住眼球，开启观众对神和教会的好奇心和兴趣。他们能够让让平平无奇的资讯活过来，透过颜色的运用，巧妙的排版和舒服的视觉效果，让人对神感兴趣。"],
-                        rate: [5, 2]
+                        rate: [4, 2]
                     }, {
                         img: "/images/multimedia_design.jpg",
                         cnMinistryTitle: "网页设计",
@@ -150,7 +149,7 @@ export const team_data_dict = {
                 desc: "聚会里所看到的和听到的一切都是制作部背后的精心策划和执行。他们以最专业的态度，把每一场聚会制作好，为的就是让每个来到聚会当中的人都可以经历神。",
                 ministry: [{
                     img: "/images/stage_management.jpg",
-                    cnMinistryTitle: "舞台监督",
+                    cnMinistryTitle: "舞台管理",
                     ministryTitle: "Stage Management",
                     desc: ["每场活动幕后的心脏，努力将每一次聚会或演出的创意实现。通过细致入微打磨每个环节，精心处理、管理舞台的各个方面，包括活动的策划与执行、时间管理、与台前幕后工作人员的协调和配搭等，为的就是创造一个身临其境的沉浸式体验给会众。"],
                     rate: [2, 2],
@@ -181,7 +180,7 @@ export const team_data_dict = {
                         cnMinistryTitle: "语言翻译",
                         ministryTitle: "Translation",
                         desc: ["这里是一个语文专才的集聚地，结众人的力量写出强而有力的字句，高度还原并精准表达原文中的含义。这不仅仅是将某一种语文翻译成另一种语文，它还需要考验你的临场反应，大脑里的词汇量等等。"],
-                        rate: [2, 2],
+                        rate: [3, 2],
                     },]
             }, {
                 cnDepTitle: "艺术部",

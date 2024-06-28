@@ -12,10 +12,10 @@ export default function Department({ team, sectionNum }) {
     useEffect(() => {
         // document.body.classList.add('no-scroll');
         setIsHeightLessThan843(window.innerHeight < 844);
-        setTimeout(() => {
-            if (!sectionNum) return;
-            handlerSectionScroll(sectionNum);
-        }, 500);
+        // setTimeout(() => {
+        //     if (!sectionNum) return;
+        //     handlerSectionScroll(sectionNum);
+        // }, 500);
 
         return () => {
             document.body.classList.remove('no-scroll');
@@ -53,13 +53,14 @@ export default function Department({ team, sectionNum }) {
                 return (
                     <section key={index} className='flex flex-col justify-center align-center'
                         style={{ margin: "0px 35px" }} onTouchStart={handleTouchStart}
-                        onTouchEnd={handleTouchEnd(index)}>
+                        // onTouchEnd={handleTouchEnd(index)}
+                    >
                         <h5 style={{ fontSize: "1.5rem", fontWeight: "400" , color: "black"}}>{dep.cnDepTitle}</h5>
                         <h2 style={{
                             fontSize: "3rem", fontFamily: "SF Pro Display",
                             fontWeight: "900", color: "black", textAlign: "center"
                         }}>{dep.depTitle}</h2>
-                        <h6 style={{ margin: "20px 0px", fontWeight: "700", textAlign: "center" }}>{dep.desc}</h6>
+                        <h6 style={{ margin: "20px 0px", fontWeight: "700", textAlign: "center" , color: "black"}}>{dep.desc}</h6>
                         <Swiper
                             className='w-full mySwiper depSwiper'
                             style={{ paddingLeft: `${isHeightLessThan843 ? "25px" : "15px"}` }}

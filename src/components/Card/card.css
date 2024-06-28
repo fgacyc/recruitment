@@ -5,8 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /*box-shadow: 0 30px 60px 0 rgba(57, 57, 57, 0.10);*/
-
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 .overlay{
     /*box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);*/
