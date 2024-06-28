@@ -46,7 +46,7 @@ export default function Complete() {
                 Finish
             </button>
             <div>
-                <h4 className="complete-h4">© 2024 FGACYC.</h4>
+                <h4 className="complete-h4">© 2024 FGACYC & FGA Tech Team.</h4>
                 <h4 className="complete-h4" style={{ marginBottom: "45px" }}>All Rights Reserved</h4>
             </div>
         </section>
