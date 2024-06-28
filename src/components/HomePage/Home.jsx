@@ -97,7 +97,10 @@ export default function Home() {
                         <div className="overlay"></div>
                         <img src="/images/CYC_logo.png" alt="CYC Logo" id='cyc-logo' className='mt-45 relative' />
                         <div className='text-center padding-y-45 mb-75 relative'>
-                            <h1 style={{ color: "white", marginBottom: "30px" }}>像一家人一样不遗余力地彼此服事</h1>
+                            <div style={{ color: "white",
+                                marginBottom: "30px",
+                                fontSize: "24px",
+                                fontFamily:"FZChaoCuHei" }}>像一家人一样不遗余力地彼此服事</div>
                             <h6 style={{ marginBottom: "30px" }}>
                                 教会是神赐给我们的属灵大家庭，
                                 在这个大家庭里的每个人都有责任付出和给予，
@@ -111,7 +114,11 @@ export default function Home() {
                         <div className="overlay"></div>
                         <img src="/images/CYC_logo.png" alt="CYC Logo" id='cyc-logo' className='mt-45 relative' />
                         <div className='text-center padding-y-45 mb-75 relative'>
-                            <h1 style={{ color: "white", marginBottom: "30px" }}>​​加入事工基本条件</h1>
+                            <div style={{ color: "white",
+                                marginBottom: "30px",
+                                fontSize: "24px",
+                                fontFamily:"FZChaoCuHei"
+                            }}>加入事工基本条件</div>
                             <div className='flex align-center mt-15'>
                                 <img src="/icons/tick.svg" alt="Tick" className='tick-icon' />
                                 <h6 className='FZChaoCuHei font-weight-400'>委身参加小组及聚会至少3个月</h6>
@@ -136,7 +143,11 @@ export default function Home() {
                         <div className="overlay"></div>
                         <img src="/images/CYC_logo.png" alt="CYC Logo" id='cyc-logo' className='mt-45 relative' />
                         <div className='text-center padding-y-45 mb-75 relative'>
-                            <h1 style={{ color: "white", marginBottom: "30px" }}>共同建造这个爱的属灵大家庭</h1>
+                            <div style={{ color: "white",
+                                marginBottom: "30px",
+                                fontSize: "24px",
+                                fontFamily:"FZChaoCuHei"
+                            }}>共同建造这个爱的属灵大家庭</div>
                             <h6>
                                 今天就找出最能发挥你自己的强处，
                                 或是你最有兴趣的事工，
