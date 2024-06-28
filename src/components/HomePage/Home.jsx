@@ -77,6 +77,7 @@ export default function Home() {
                             width: "100%",
                             height: "auto",
                             borderRadius: "15px",
+                            maxWidth: "500px",
                         }}
                     />
                 </div>

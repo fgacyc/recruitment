@@ -7,7 +7,8 @@ export const organization_structure = {
         "general_affair": [
             "admin",
             "venue",
-            "shuttle"
+            "shuttle",
+            "guest lounge"
         ],
         "technology": [
             "software development",
@@ -21,7 +22,8 @@ export const organization_structure = {
         ],
         "design": [
             "graphic design",
-            "multimedia design"
+            "multimedia design",
+            "ui/ux design"
         ],
         "photography": [
             "photography"
@@ -38,7 +40,8 @@ export const organization_structure = {
         "arts": [
             "dance",
             "fashion&image",
-            "drama"
+            "drama",
+            "decoration"
         ],
         "worship": [
             "vocal",
@@ -76,6 +79,10 @@ const ministry_name_map ={
         "en": "Lounge",
         "cn": "膳食"
     },
+    "guest lounge":{
+        "en": "Guest Lounge",
+        "cn": "贵宾招待"
+    },
     "venue": {
         "en": "Venue",
         "cn": "场地"
@@ -106,6 +113,10 @@ const ministry_name_map ={
     },
     "multimedia design": {
         "en": "Multimedia Design",
+        "cn": "网页设计"
+    },
+    "ui/ux design": {
+        "en": "UI/UX Design",
         "cn": "网页设计"
     },
     "photography": {
@@ -167,6 +178,8 @@ export function findMinistry(name){
     if (name ==="fashion & image") return ["creative", "arts", "fashion&image"];
     name = name.toLowerCase();
 
+    // console.log("name11", name)
+
     let ministry = "";
     let department = "";
     let team = "";
@@ -182,6 +195,7 @@ export function findMinistry(name){
             }
         }
     }
+    // console.log("ministry",ministry)
     return [team, department, ministry];
 }
 
