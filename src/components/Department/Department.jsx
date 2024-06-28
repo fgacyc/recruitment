@@ -10,7 +10,7 @@ export default function Department({ team, sectionNum }) {
     const [isHeightLessThan843, setIsHeightLessThan843] = useState(false);
 
     useEffect(() => {
-        document.body.classList.add('no-scroll');
+        // document.body.classList.add('no-scroll');
         setIsHeightLessThan843(window.innerHeight < 844);
         setTimeout(() => {
             if (!sectionNum) return;
