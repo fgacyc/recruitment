@@ -38,7 +38,7 @@ export default function Complete() {
                     color: "black", fontSize: "0.938rem", fontFamily: "Microsoft JhengHei", fontWeight: "700",
                     textAlign: "center", marginTop: "8px", opacity: "0.57"
                 }}>
-                    {!isFull ? "我们收到你的资料了！请查看你的邮件箱，我们会再通知你面试的详情。" :
+                    {!isFull ? "我们收到你的资料了！我们会再通知你面试的详情。" :
                         "我们收到你的资料了。但服事团队的名额已经满了！若有多余的名额，我们会通过邮件另行通知。"}
                 </h2>
             </div>
