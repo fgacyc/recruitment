@@ -20,14 +20,14 @@ export let pastoral_team = {
         "ps_melvin_zone",
         "the_blessing"
     ],
-    // "others": [
-    //     "serdang",
-    //     "kepong",
-    //     "usj",
-    //     "setapak",
-    //     "sg_long",
-    //     "seremban",
-    // ]
+    "others": [
+        "serdang",
+        "kepong",
+        "usj",
+        "setapak",
+        "sg_long",
+        "seremban",
+    ]
 }
 
 export function formatOption(name) {
