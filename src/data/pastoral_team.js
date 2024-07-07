@@ -27,6 +27,8 @@ export let pastoral_team = {
         "setapak",
         "sg_long",
         "seremban",
+        "the_blessing",
+        "to_be_confirmed"
     ]
 }
 
@@ -41,6 +43,7 @@ export function findPastoralTeam(name) {
     name = name.toLowerCase();
     let team = "";
     let zone = "";
+    console.log(name)
 
     for (let key in pastoral_team) {
         if (pastoral_team[key].includes(name)) {

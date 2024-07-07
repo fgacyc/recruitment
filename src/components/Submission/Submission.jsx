@@ -240,7 +240,7 @@ export default function Submission() {
         }
 
         console.log("info:",info);
-        return;
+
 
         postRecruiter(info).then((result) => {
             console.log("result:",result)
