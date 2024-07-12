@@ -107,7 +107,7 @@ export default function ChooseCandidate() {
             }}>Ministry Recruitment Interview</div>
             <div style={{
                 textAlign: 'center',
-                marginTop: "80px"
+                marginTop: "40px"
             }}>
                 <div style={{
                     fontStyle: 'normal', fontSize: '2rem', fontFamily:"FZChaoCuHei",
@@ -116,7 +116,7 @@ export default function ChooseCandidate() {
                     fontStyle: 'normal', fontSize: '2rem', fontFamily:"FZChaoCuHei",
                 }}>属于我们的家</div>
                 <div style={{
-                    marginBottom: "80px",
+                    marginBottom: "40px",
                     fontWeight: "bold",
                     fontFamily:"SF Pro Display",
                     fontSize: "14px",
