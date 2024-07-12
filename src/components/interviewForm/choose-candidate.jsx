@@ -14,7 +14,8 @@ export default function ChooseCandidate() {
     const [ministry, setMinistry] = useState("");
     const [candidateList,  setCandidateList] = useState([]);
     const [candidateID, setCandidateID] = useState("");
-    const MinistryTeamDept = getMinistryTeamDept()
+    const [MinistryTeamDept, setMinistryTeamDept] = useState(null);
+    // const MinistryTeamDept = getMinistryTeamDept()
     const navigate = useNavigate();
     const [showloading, setShowLoading] = useState(false);
 
@@ -32,6 +33,7 @@ export default function ChooseCandidate() {
                 localStorage.setItem("password", password)
             }
         }
+        setMinistryTeamDept(getMinistryTeamDept())
 
         const selected = localStorage.getItem("cyc-recruitment-interview-selected")
         if (selected){
@@ -137,7 +139,7 @@ export default function ChooseCandidate() {
                 >
                     <option value="">Select department</option>
                     {
-                        Object.keys(MinistryTeamDept).map((deptName, index) => {
+                        MinistryTeamDept && Object.keys(MinistryTeamDept).map((deptName, index) => {
                             return (
                                 <option key={index} value={deptName}>{capitalizeAllWords(deptName)}</option>
                             )
@@ -159,7 +161,7 @@ export default function ChooseCandidate() {
                 >
                     <option value="">Select ministry</option>
                     {
-                        ministriesOptions.map((ministry, index) => {
+                        ministriesOptions && ministriesOptions.map((ministry, index) => {
                             return (
                                 <option key={index} value={ministry}>{capitalizeAllWords(ministry)}</option>
                             )
