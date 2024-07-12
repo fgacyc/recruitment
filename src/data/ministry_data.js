@@ -4,7 +4,7 @@ export const ministry_team_dept = {
             "usher",
             "security"
         ],
-        "operation": [
+        "operations": [
             "admin",
             "venue",
             "guest_lounge",
