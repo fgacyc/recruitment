@@ -144,7 +144,7 @@ export default function InterviewForm() {
                     fontFamily: "SF Pro Display",
                 }}>Share about yourself
                 </div>
-                <QuestionBlock title="Committed in church for how long">
+                <QuestionBlock title="Committed in church for how long?">
                     <select
                         className="submission-select"
                         name="Choose duration"
@@ -165,7 +165,7 @@ export default function InterviewForm() {
                     </select>
                 </QuestionBlock>
 
-                <QuestionBlock title={"Any plans to grow in Connect Group"}>
+                <QuestionBlock title={"Any plans to grow in Connect Group?"}>
                     <RadioGroup options={["Yes", "No"]} value={isPlanGrowInCG} setValue={setIsPlanGrowInCG}/>
                 </QuestionBlock>
 
@@ -186,19 +186,19 @@ export default function InterviewForm() {
                 }}>Ministry Related Questions
                 </div>
 
-                <QuestionBlock title={"Why do you choose this ministry"}>
+                <QuestionBlock title={"Why do you choose this ministry?"}>
                     <QuestionTextarea value={whyChooseMinistry} onChange={setWhyChooseMinistry}/>
                 </QuestionBlock>
 
-                <QuestionBlock title={"How much di you know about this ministry"}>
+                <QuestionBlock title={"How much do you know about this ministry?"}>
                     <QuestionTextarea value={knowHowMuch} onChange={setKnowHowMuch}/>
                 </QuestionBlock>
 
-                <QuestionBlock title={"What skills do you possess which are related to this ministry"}>
+                <QuestionBlock title={"What skills do you possess which are related to this ministry?"}>
                     <QuestionTextarea value={yourSkill} onChange={setYourSkill}/>
                 </QuestionBlock>
 
-                <QuestionBlock title={"What is you expectation of this ministry"}>
+                <QuestionBlock title={"What is you expectation of this ministry?"}>
                     <QuestionTextarea value={expectation} onChange={setExpectation}/>
                 </QuestionBlock>
 

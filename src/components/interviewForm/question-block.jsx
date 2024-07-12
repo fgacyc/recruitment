@@ -2,6 +2,7 @@ export default function QuestionBlock({children,title}) {
     return (
         <div style={{
             marginBottom: "20px",
+            fontFamily:"SF Pro"
         }}>
            <div style={{
                 fontSize: "14px",
