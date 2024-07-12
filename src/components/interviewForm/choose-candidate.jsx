@@ -18,7 +18,21 @@ export default function ChooseCandidate() {
     const navigate = useNavigate();
     const [showloading, setShowLoading] = useState(false);
 
+
+
     useEffect(() => {
+        // enter password
+        const PASSWORD = "CYC2024"
+        const password = localStorage.getItem("password")
+        if(password !== PASSWORD){
+            const password = prompt("Enter password")
+            if (password !== PASSWORD){
+                navigate("/")
+            }else{
+                localStorage.setItem("password", password)
+            }
+        }
+
         const selected = localStorage.getItem("cyc-recruitment-interview-selected")
         if (selected){
             const selectedData = JSON.parse(selected)
