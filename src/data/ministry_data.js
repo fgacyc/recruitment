@@ -7,7 +7,7 @@ export const ministry_team_dept = {
         "operations": [
             "admin",
             "venue",
-            "guest_lounge",
+            "guest lounge",
             "shuttle"
         ],
         "technology": [
